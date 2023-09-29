@@ -1,0 +1,42 @@
+.home-main-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #152850;
+}
+
+.top-container {
+  height: 10%;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.website-logo {
+  height: 100%;
+}
+
+.logout-btn {
+  height: 40px;
+  font-size: 17px;
+  width: 100px;
+  border: 2px solid white;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.home-body-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.excellence-heading {
+  color: #fff;
+  font-size: 40px;
+}
